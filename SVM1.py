@@ -20,12 +20,12 @@ clf = SVC(kernel="linear")
 #### now your job is to fit the classifier
 #### using the training features/labels, and to
 #### make a set of predictions on the test data
-
+clf.fit(features_train, labels_train)
 
 
 #### store your predictions in a list named pred
 
-
+clf.predict(features_test, labels_test)
 
 
 
