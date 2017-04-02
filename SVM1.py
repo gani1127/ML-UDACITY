@@ -25,7 +25,7 @@ clf.fit(features_train, labels_train)
 
 #### store your predictions in a list named pred
 
-clf.predict(features_test, labels_test)
+pred = clf.predict(features_test)
 
 
 
